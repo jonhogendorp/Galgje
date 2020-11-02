@@ -1,0 +1,27 @@
+ 
+
+
+
+
+Todo Galgje
+
+
+- Plaatje veranderen als letter fout is ; not done yet
+
+
+done
+- Reset button maken(check)
+- Foute letter is min leven (check)
+- Plaatjes galgje invoeren; not done yet
+- remove letter after input
+- if you lost notify the person
+- alleen alfabet toe laten (check )
+- hiding the borders from wrongletters and lost text. (check)
+- Reset knop uitbereiden, lives veranderen en wrongletters array (soort van check)
+- disable text input als het woord geraden is ;check
+- een function maken die check/aangeeft wanneer je gewonnen hebt. ; check
+
+maybe
+- Reset knop veranderen
+- ctr h change all occurences 
+- altijd lowercase toelaten, zelfs als mensen capslock aan hebben staan
