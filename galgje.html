@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Galgje</title>
+       <link rel="stylesheet" href="galgje.css">
+    </head>
+    <body>
+        <div class="playpallet">
+            <h1>Galgje</h1>
+
+                <div id="gameSetup">
+                    <h2 id="solution"></h2>
+                        <div id="image">
+                            <img id="galg" src="Images/hangman0.png" >
+                        </div>
+                        <p>lives: <span id="lives">9</span> </p>
+                        <form onsubmit="inputWord();return false">
+                            <input id="guessLetter" type="text" placeholder="Type hier je letter" minlength="1" maxlength="1" onfocus="this.value=''" > 
+                            <button id="checkGuess">Guess</button> 
+                        </form>
+                        <p id="chosenLetters"></p><br>
+                        <p id="lost"></p><p id="winner"></p>
+                        <button id="reset" onClick="reset()">Reset</button>
+                            
+                            <!-- <button onClick="myFunction()">klik om te winnen</button>
+                        <p id="winConfirm" >Je hebt gewonnen.</p> -->
+                </div>   
+        </div>
+
+        <!-- javascript -->
+        <script src="http://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="galgje.js"></script>
+    </body>
+</html>
