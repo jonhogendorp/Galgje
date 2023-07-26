@@ -1,0 +1,21 @@
+{
+  "name": "galgje",
+  "version": "1.0.0",
+  "description": "hangman game",
+  "main": "galgje.js",
+  "scripts": {
+    "test": "run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Galgje"
+  },
+  "author": "Jon Hogendorp",
+  "license": "ISC",
+  "dependencies": {
+    "jQuery": "^1.7.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
