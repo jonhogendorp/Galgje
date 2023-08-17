@@ -2,11 +2,11 @@
 <html>
     <head>
         <title>Galgje</title>
-       <link rel="stylesheet" href="src/style.css">
+      
        <link rel="stylesheet" href="dist/output.css">
     </head>
-    <body>
-        <div class="playpallet">
+    <body class="bg-red-400 flex flex-row justify-center items-center">
+        <div class="playpallet columns-1 bg-orange-300 ">
             <h1>Galgje</h1>
 
                 <div id="gameSetup">
@@ -19,7 +19,7 @@
                             <input id="guessLetter" type="text" placeholder="Type hier je letter" minlength="1" maxlength="1" onfocus="this.value=''" > 
                             <button id="checkGuess">Guess</button> 
                         </form>
-                        <p id="chosenLetters"></p><br>
+                        <p id="chosenLetters" class="bg"></p><br>
                         <p id="lost"></p><p id="winner"></p>
                         <button id="reset" onClick="reset()">Reset</button>
                             
